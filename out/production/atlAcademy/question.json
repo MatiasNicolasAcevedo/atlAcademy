@@ -1,0 +1,7 @@
+{
+  "category": "Cine",
+  "question": "¿Quién dirigió la película 'Pulp Fiction'?",
+  "options": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg"],
+  "answer": 0,
+  "explanation": "La película 'Pulp Fiction' fue dirigida por Quentin Tarantino, conocido por su estilo distintivo y narrativa no lineal."
+}

@@ -19,14 +19,25 @@ public class Ejercicio8PiedraPapelTijera {
 
         if (opcionUsuario == opcionPC){
             System.out.println("Ha empatado:");
-            System.out.println("Jugador: " + opcionUsuario);
-            System.out.println("Computadora: " + opcionPC);
+        } else if (
+                (opcionUsuario == 1 && opcionPC == 3) ||
+                (opcionUsuario == 2 && opcionPC == 1) ||
+                (opcionUsuario == 3 && opcionPC == 2)) {
+            System.out.println("Ha ganado");
+        } else {
+            System.out.println("Ha perdido");
         }
 
+        switch (opcionUsuario) {
+            case 1 -> System.out.println("opcionUsuario = Piedra");
+            case 2 -> System.out.println("opcionUsuario = Papel");
+            case 3 -> System.out.println("opcionUsuario = Tijera");
+        }
 
-
-
-
-
+        switch (opcionPC) {
+            case 1 -> System.out.println("opcionPC = Piedra");
+            case 2 -> System.out.println("opcionPC = Papel");
+            case 3 -> System.out.println("opcionPC = Tijera");
+        }
    }
 }
