@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio4EligeTuAventura {
     public static void main(String[] args) {
 
+        String equipo4 = "Javasonicos Lucarianos";
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("¡Bienvenido a la historia del futbolista!");
